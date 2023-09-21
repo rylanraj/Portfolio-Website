@@ -5,35 +5,48 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Computing Student Rylan Raj</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
+    <div id="navbar">
+        <ul class = "navigation">
+            <li class = "nav-list-element"><a href="index.html">Home</a></li>
+            <li class = "nav-list-element"><a href="blog/index.html">Blog</a></li>
+            <li class = "nav-list-element"><a href="contact.html">Contact</a></li>
+            <li class = "nav-list-element"><a href="about.html">About</a></li>
         </ul>
     </div>
-</nav>
+    <div id="primary-header">
+        <ul class = "primary-headers">
+            <li class = "primary-header-element"><a class="name-heading">RylanRaj.COM</a></li>
+            <li class = "primary-header-element"><a class="student-heading">Student Portfolio</a></li>
+        </ul>
+    </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+    <div class="information">
+        <p class="index-information"> Welcome to RylanRaj.com!</p>
+        <p class="index-information">This website is my portfolio for all the things I've created as a student of Computing!</p>
+        <h2>PREVIOUS EXPERIENCE (PROJECTS)</h2>
+        <h3>Bouncy Ball Game (Java Swing)</h3>
+        <ul>
+            <li>
+                Project Description: Used the Timer class to simulate frames via an ActionListener to make a ball drawn
+                onto the JPanel fall by increasing its y coordinates exponentially to simulate gravity. The player could
+                tap the space bar resulting in the ball bouncing back up by temporarily making gravity negative. Pairs
+                of obstacles moving horizontally at varying heights can be passed resulting in a point for the player.
+                If the player has the ball collide with an obstacle, it results in a game over.
+            </li>
+            <li> <a href="https://github.com/rylanraj/Bouncy-ball" target="_blank"> VIEW REPOSITORY</a></li>
+        </ul>
+        <h3>Super Mario Bros Remake (Java Greenfoot)</h3>
+        <ul>
+            <li>
+                Remade all essential game logic of Super Mario Bros inside of the Java simulation framework Greenfoot.
+                Contains animations, movement logics (jumping, sliding, slide-duck, sprinting, collision), power up
+                blocks, world selection which unlocks upon completion of the previous level, enemy animations and
+                movement logic, enemy stomping functionality, and various world-scrolling algorithms.
+            </li>
+            <li> <a href="https://github.com/rylanraj/Mario-In-Greenfoot" target="_blank"> VIEW REPOSITORY</a></li>
+        </ul>
+    </div>
 </body>
 </html>
