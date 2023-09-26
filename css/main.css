@@ -33,9 +33,16 @@ p{
 li.list-body{
     font: 1.2rem "Century Gothic", serif;
 }
+.courses-header{
+    font-size: 22px
+}
+.profile-pic{
+    position: relative;
+    left: 7.5%;
+}
 
 body  {
-    background: cadetblue;
+    background: antiquewhite;
     background-size:cover;
     -webkit-animation: slidein 200s;
     animation: slidein 150s;
