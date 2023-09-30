@@ -29,6 +29,9 @@ a.student-heading{
 p{
     font: 1.2rem "Century Gothic", serif;
 }
+p.blog-body{
+    font: 1.3rem "Century Gothic", serif;
+}
 li.list-body{
     font: 1.2rem "Century Gothic", serif;
 }
@@ -43,7 +46,38 @@ li.list-body{
 h2.index-blog{
     font: bold 2rem "Century Gothic", serif;
 }
-body  {
+h2.blog-seeMore{
+    font: bold 2.2rem "Century Gothic", serif;
+}
+
+a.repo-links{
+    color: dodgerblue;
+
+}
+a.repo-links:hover{
+    color: darkblue;
+}
+a.main-links{
+    color: black;
+}
+a.main-links:hover{
+    color: gray;
+}
+a.blog-links{
+    color: black;
+}
+a.blog-links:hover{
+    color: gray;
+}
+img.social-media{
+    padding: 1rem;
+}
+img.social-media:hover{
+    opacity: 50%;
+}
+
+
+body{
     background: antiquewhite;
     background-size:cover;
 }
