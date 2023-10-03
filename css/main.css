@@ -61,13 +61,13 @@ a.main-links{
     color: black;
 }
 a.main-links:hover{
-    color: gray;
+    color: rgb(128, 128, 128);
 }
 a.blog-links{
     color: black;
 }
 a.blog-links:hover{
-    color: gray;
+    color: rgb(128, 128, 128);
 }
 img.social-media{
     padding: 1rem;
